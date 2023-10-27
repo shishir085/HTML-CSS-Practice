@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.items {
+    height: 400px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.blue {
+    background-color: #4070f4;
+    height: 140px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    margin-bottom: 50px;
+
+
+}
+
+.photo {
+    background-image: url(https://th.bing.com/th/id/OIP.s3RJ4bcuEf9d2BBzCCB_0wHaHa?pid=ImgDet&rs=1);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    position: relative;
+    top: 30px;
+    left: 95px;
+    border: 3px solid #4070f4;
+
+    margin-bottom: 40px;
+
+}
+
+
+.text {
+    display: block;
+
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+
+
+}
+
+.logo1 {
+    background-image: url(https://th.bing.com/th/id/OIP.QHODby_bS81-x2of8vCIhgHaHa?pid=ImgDet&rs=1);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    margin-right: 7px;
+
+
+}
+
+.logo2 {
+    background-image: url(https://th.bing.com/th/id/OIP.Sbs-M2-y31gNoj9n-IIeowHaHa?pid=ImgDet&rs=1);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin-right: 10px;
+
+}
+
+.logo3 {
+    background-image: url(https://th.bing.com/th/id/OIF.enCKrS3A48MBltwCTWXFcw?pid=ImgDet&rs=1);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.logo4 {
+    background-image: url(https://th.bing.com/th/id/OIP.9dxZN-cK-fk-zg9IT3SphgHaHh?pid=ImgDet&rs=1);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button1:hover {
+
+    cursor: pointer;
+
+}
+
+.button2:hover {
+
+    cursor: pointer;
+}
+
+.button1 {
+    height: 30px;
+    width: 110px;
+    background-color: #4070f4;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 20px;
+
+}
+
+.button2 {
+    height: 30px;
+    width: 110px;
+    background-color: #4070f4;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.all {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.love {
+    padding-right: 15px;
+    border-right: 0.2px solid rgb(136, 136, 136);
+}
+
+.comment {
+    margin-left: 15px;
+    padding-right: 15px;
+    border-right: 0.2px solid rgb(136, 136, 136);
+}
+.share {
+    margin-left: 15px;
+    padding-right: 15px;
+   
+}
